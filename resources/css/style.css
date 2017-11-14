@@ -1,8 +1,252 @@
 html {
+  font-family: Helvetica;
+  font-size: 18px;
+
+}
+#line1 {
+  width:960px;
+    margin:0 auto;
+    display: flex;
+    font-size: 1rem;
+    padding-top: 0.66rem;
+    padding-bottom: 0.66rem;
+}
+
+.container{
+display: block;
+  max-width:960px;
+    margin: 0 AUTO;
+}
+.content {
+  width:960px;
+    margin:0 auto;
+}
+.title {
+ display: block;
+  padding: 2rem 3rem;
+  margin-bottom: 6rem;
+  width: 20rem;
+  font-weight: bold;
+position: relative;
+top: 9rem;
+}
+
+.banner {
+
+ display: flex;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+.banner img {
+  height: 1.5rem;
+  margin: auto 1rem auto 0.5rem;
+}
+.banner p{
+  align-items: center;
+color: white;
+}
+.backup_main{
+  display: none;
+}
+.wht_fnt {
+  color: white;
+}
+
+.black_bckgnd {
+  background-color: black;
+  opacity: 0.85;
+}
+
+
+.NA {
+margin-bottom: 0.25rem;
+}
+
+.main{
+
+  font-size: 2rem;
 
 }
 
-body {
-  background-color: black;
-  color: white;
+ .bike_banner{
+    display: block;
+  height: 25rem;
+  background-image:url("/Users/hanyrostom/Documents/School/projects/SecretAgentSupply/resources/images/moto.jpeg");
+  background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+
+
+}
+.links {
+  background-color: firebrick;
+  background-size: cover;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.sections {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logistics {
+display: flex;
+justify-content: space-between;
+}
+footer {
+  display: flex;
+  height: 5rem;
+
+  width: 100%;
+  z-index: 1;
+  padding-bottom: auto;
+}
+.copyright {
+  align-items: center;
+  text-align: left;
+}
+.brdr {
+
+  border: 4px solid black;
+  width: 30%;
+  min-width: 200px;
+  height: width;
+  margin: 3rem 0;
+}
+
+.brdr img {
+}
+
+#where {
+
+  padding: 1rem 2rem;
+}
+#when {
+
+  padding: 1rem 2rem;
+}
+.description {
+padding-top: 0.5rem;
+padding-bottom: 0.5rem;
+padding-right: auto;
+padding-left: auto;
+}
+.menu {
+  display: none;
+}
+
+.cntr {
+  padding: 0.5rem auto;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+}
+#tool {
+  display: flex;
+  margin: auto;
+  height: 9rem;
+  max-width: 100%;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  padding-right: auto;
+  padding-left: auto;
+
+}
+
+.logi {
+  width: 35%;
+  height: auto;
+  margin-bottom: 4rem;
+}
+
+@media only screen and (min-width: 480px) and (max-width: 768px){
+.glasses{
+  display: none;
+}
+.brdr{
+  width: 47%;
+}
+.all_options {
+  display: none;
+}
+.menu {
+  display: block;
+  text-align: center;
+}
+#line1, .content, .container {
+  width:100%;
+}
+}
+
+@media only screen and (max-width:480px){
+  body{
+    width:100%;
+  }
+  .glasses, .watches {
+    display: none;
+  }
+  .sections{
+    justify-content: center;
+  }
+  .brdr{
+    width: 90%;
+  }
+  .all_options {
+    display: none;
+  }
+  .menu {
+    display: block;
+    text-align: center;
+  }
+  #line1, .content,  .bike_banner, .menu {
+    width:100%;
+    overflow: hidden;
+  }
+  .logistics {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+.logi {
+  width:100%;
+}
+.location {
+  margin-bottom:0.5rem;
+}
+.NA{
+  font-size: 0.77rem;
+}
+.main {
+  font-size: 1rem;
+}
+.bike_banner{
+  height: 15rem;
+  width: auto;
+}
+.title{
+  position: relative;
+  top: 10rem;
+  padding: 1rem 2rem;
+}
+.heart{
+  position: relative;
+  top: 3rem;
+}
+.main {
+  display: none;
+}
+.backup_main {
+  display: block;
+}
 }
