@@ -73,7 +73,9 @@ margin-bottom: 0.25rem;
  .bike_banner{
   display: block;
   height: 25rem;
-  background-image: url("../resources/images/moto.jpeg");
+  background-image: url("./resources/images/watch.png");
+   
+/*   background-image: url("../resources/images/moto.jpeg"); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
