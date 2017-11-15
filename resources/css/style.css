@@ -71,12 +71,12 @@ margin-bottom: 0.25rem;
 }
 
  .bike_banner{
-    display: block;
+  display: block;
   height: 25rem;
-  background-image:url('./resources/images/moto.jpeg');
+  background-image: url("../resources/images/moto.jpeg");
   background-repeat: no-repeat;
-   background-size: cover;
-   background-position: center;
+  background-size: cover;
+  background-position: center;
 
 }
 
