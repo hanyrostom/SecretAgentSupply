@@ -170,7 +170,7 @@ padding-left: auto;
   margin-bottom: 4rem;
 }
 
-@media only screen and (min-width: 480px) and (max-width: 768px){
+@media only screen and (min-width: 470px) and (max-width: 1024px){
 .glasses{
   display: none;
 }
@@ -189,7 +189,7 @@ padding-left: auto;
 }
 }
 
-@media only screen and (max-width:480px){
+@media only screen and (max-width:470px){
   body{
     width:100%;
   }
